@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    text-align: center;
+}
+
+.filter{
+    margin-bottom: 2rem ;
+}
+
+input{
+    padding: .5rem;
+}
+
+.container-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.card{
+    background-color: black;
+    color: #FFF;
+    text-align: center;
+}
+
+.card.hidden{
+    transition: .3s;
+    visibility: hidden;
+    opacity: 0;
+    order: 1;
+}
